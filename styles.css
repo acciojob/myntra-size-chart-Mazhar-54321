@@ -1,2 +1,19 @@
 
 /* Your CSS Code here. */
+table{
+	border:1px solid black;
+	border-collapse:collapse;
+	width:400px
+}
+thead{
+	background-color:red;
+}
+tr,th,td{
+	border:1px solid black
+}
+.part{
+	text-align:left !important;
+}
+td:nth-child(n){
+	text-align:right
+}
